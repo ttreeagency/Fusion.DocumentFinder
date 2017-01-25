@@ -1,0 +1,19 @@
+{
+    "name": "ttree/fusion-documentfinder",
+    "description": "",
+    "type": "neos-package",
+    "require": {
+        "typo3/neos": "*",
+        "ttree/fusion-canrender": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ttree\\Fusion\\DocumentFinder\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Ttree.Fusion.DocumentFinder"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+root {
+    documentFinder {
+        @position = 'before default'
+        condition = Ttree.Fusion:CanRender {
+            type = ${q(node).property('_nodeType') + Configuration.setting('Ttree.Fusion.DocumentFinder.documentPrototype.suffix')}
+        }
+        type = ${q(node).property('_nodeType') + Configuration.setting('Ttree.Fusion.DocumentFinder.documentPrototype.suffix')}
+    }
+    default {
+        type = ${Configuration.setting('Ttree.Fusion.DocumentFinder.documentPrototype.fallback')}
+        renderPath >
+    }
+}
