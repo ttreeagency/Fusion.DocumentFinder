@@ -1,12 +1,12 @@
+
 Ttree:
   Fusion:
     DocumentFinder:
       documentPrototype:
         fallback: 'Your.Package:Default.Document'
-        suffix: '.Document'
-
-TYPO3:
+        suffix: .Document
+Neos:
   Neos:
     typoScript:
       autoInclude:
-        'Ttree.Fusion.DocumentFinder': true
+        Ttree.Fusion.DocumentFinder: true
