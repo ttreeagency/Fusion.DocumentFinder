@@ -6,6 +6,11 @@ root {
         }
         type = ${q(node).property('_nodeType') + Configuration.setting('Ttree.Fusion.DocumentFinder.documentPrototype.suffix')}
     }
+
+    layout {
+        conditon = FALSE
+    }
+
     default {
         type = ${Configuration.setting('Ttree.Fusion.DocumentFinder.documentPrototype.fallback')}
         renderPath >
