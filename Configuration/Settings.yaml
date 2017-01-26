@@ -7,6 +7,6 @@ Ttree:
         suffix: .Document
 Neos:
   Neos:
-    typoScript:
+    fusion:
       autoInclude:
         Ttree.Fusion.DocumentFinder: true
