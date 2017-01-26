@@ -3,7 +3,7 @@
     "description": "",
     "type": "neos-package",
     "require": {
-        "typo3/neos": "*",
+        "neos/neos": "*",
         "ttree/fusion-canrender": "*"
     },
     "autoload": {
