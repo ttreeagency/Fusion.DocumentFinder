@@ -5,6 +5,7 @@ Ttree:
       documentPrototype:
         fallback: 'Your.Package:Default.Document'
         suffix: .Document
+
 Neos:
   Neos:
     fusion:
