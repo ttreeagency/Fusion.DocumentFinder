@@ -3,7 +3,7 @@ Ttree:
   Fusion:
     DocumentFinder:
       documentPrototype:
-        fallback: 'Your.Package:Default.Document'
+        fallback: 'Neos.Neos:Page'
         suffix: .Document
 
 Neos:

@@ -13,7 +13,7 @@ The default suffix is ```.Document```. A document node with a type of ```Your.Pa
       Fusion:
         DocumentFinder:
           documentPrototype:
-            fallback: 'Your.Package:Default.Document'
+            fallback: 'Neos.Neos:Page'
             suffix: .Document
     
 Acknowledgments
