@@ -1,5 +1,6 @@
 root {
-    documentFinder {
+    documentType >
+    documentType {
         @position = 'before default'
         condition = Ttree.Fusion:CanRender {
             type = ${q(node).property('_nodeType') + Configuration.setting('Ttree.Fusion.DocumentFinder.documentPrototype.suffix')}
