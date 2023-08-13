@@ -9,7 +9,7 @@ root {
     }
 
     layout {
-        conditon = FALSE
+        condition = false
     }
 
     default {
