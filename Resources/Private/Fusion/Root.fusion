@@ -1,7 +1,7 @@
 root {
     documentType >
     documentType {
-        @position = 'before default'
+        @position = 'before fallback'
         condition = Ttree.Fusion:CanRender {
             type = ${q(node).property('_nodeType') + Configuration.setting('Ttree.Fusion.DocumentFinder.documentPrototype.suffix')}
         }
@@ -12,8 +12,11 @@ root {
         condition = false
     }
 
-    default {
+    fallback {
+        @position = 'before default'
+        condition = Ttree.Fusion:CanRender {
+            type = ${Configuration.setting('Ttree.Fusion.DocumentFinder.documentPrototype.fallback')}
+        }
         type = ${Configuration.setting('Ttree.Fusion.DocumentFinder.documentPrototype.fallback')}
-        renderPath >
     }
 }
